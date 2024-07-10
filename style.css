@@ -1,0 +1,21 @@
+.formgroup{
+    position: relative;
+    margin: 12px 0px;
+}
+.formgroup input{
+    padding:8px 10px ;
+    font-size: 18px;
+    border-radius: 5px;
+    border: solid 2px black;
+    color: black;
+}
+.formgroup input ::placeholder{
+    color: transparent;
+}
+.formlabel{
+    position: absolute;
+    top: 9px;
+    left: 0;
+    padding: 0px 10px;
+    pointer-events: none;
+}
